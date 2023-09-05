@@ -1,0 +1,48 @@
+body{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+}
+#main{
+
+    margin-top: 30vh;
+    width: 50vh;
+    flex-direction: column;
+    border: 1px solid;
+    background: white;
+    border-radius: 5px ;
+}
+.option{
+    display: flex;
+    padding-top: 5px; 
+    height: 30px;
+    border-bottom: 1px solid;
+
+}
+#question{
+    color: blue;
+    height: 40px;
+    padding-top: 8px;
+    font-size: 15px;
+    background-color: pink; 
+}
+#submit{
+    height: 40px;
+    margin: 0;
+    padding-top: 4%;
+    font-size: 20px; 
+    text-align: center;
+    background-color:green;
+    color: white;
+    border: none;
+    border-radius: 0 0 5px 5px;
+}
+#submit:hover{
+    background-color: black;
+    color: white;
+}
+#result{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
